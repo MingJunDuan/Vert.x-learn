@@ -49,7 +49,7 @@ public class Example3 extends AbstractVerticle {
         mySQLClientConfig.put("url", "jdbc:mysql://192.168.56.101:3306/test?useUnicode=true&characterEncoding=UTF-8");
         mySQLClientConfig.put("driver_class", "com.mysql.jdbc.Driver");
         mySQLClientConfig.put("user", "root");
-        mySQLClientConfig.put("password", "dmj2010");
+        mySQLClientConfig.put("password", "123");
         jdbcClient = JDBCClient.createShared(vertx, mySQLClientConfig);
 
         //testAdd();

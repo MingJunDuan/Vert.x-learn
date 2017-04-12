@@ -48,7 +48,7 @@ public class Example1 extends AbstractVerticle {
         mySQLClientConfig.put("host","localhost");
         mySQLClientConfig.put("port",3306);
         mySQLClientConfig.put("username","root");
-        mySQLClientConfig.put("password","dmj2010");
+        mySQLClientConfig.put("password","123");
         mySQLClientConfig.put("database","test");
         AsyncSQLClient client = MySQLClient.createShared(vertx, mySQLClientConfig);
 
